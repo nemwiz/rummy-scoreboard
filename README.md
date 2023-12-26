@@ -1,22 +1,14 @@
-# create-svelte
+## Rummy scoreboard
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a simple scoreboard for a card game called [Rummy](https://bicyclecards.com/how-to-play/rummy-rum).
+Rummy has many variations and this one is adjusted to the most common one played in Serbia.
+The UI is also presented in Serbian language.
 
-## Creating a project
+This app was built by Svelte.
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Getting started
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Run `npm install` to install the dependencies.
 
 ```bash
 npm run dev
@@ -35,4 +27,3 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
