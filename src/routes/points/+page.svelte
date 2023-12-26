@@ -30,6 +30,14 @@
 
 	function goToNextStep() {
 
+		const inputField = document.getElementById('playerScore');
+
+		if (inputField) {
+			setTimeout(() => {
+				inputField.focus();
+			}, 100);
+		}
+
 		if (pointsCollectedForAllPlayers()) {
 			setPlayers(currentPlayers);
 
@@ -64,7 +72,7 @@
 
 	function calculateScoreForOtherPlayers(playerName: string, newScore: number) {
 
-		if (newScore === 0 || newScore < 0) {
+		if (newScore === null || newScore === 0 || newScore < 0) {
 			return;
 		}
 

@@ -36,6 +36,14 @@
 </script>
 
 <style>
+    .remove-player-icon-container {
+        width: 3rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .remove-player-icon {
         width: 1rem;
         height: 1rem;
@@ -47,6 +55,10 @@
         align-items: center;
         justify-content: space-between;
         gap: 1rem;
+    }
+
+    #playerName {
+        text-align: center;
     }
 </style>
 
@@ -62,10 +74,11 @@
 				<li>
 					<div class="player-info">
 						{name}
-						<img src={ThrashIcon}
-								 on:click={() => removePlayer(name)}
-								 alt="Remove player icon"
-								 class="remove-player-icon">
+						<div class="remove-player-icon-container" on:click={() => removePlayer(name)}>
+							<img src={ThrashIcon}
+									 alt="Remove player icon"
+									 class="remove-player-icon">
+						</div>
 					</div>
 				</li>
 			{/each}
