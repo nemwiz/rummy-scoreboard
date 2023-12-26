@@ -127,6 +127,7 @@
 		<div class="player-score-container">
 			<label for="playerScore">Broj poena <b>{remainingPlayers[0]}</b></label>
 			<input type="number" id="playerScore"
+						 data-testid="playerScore"
 						 bind:value={otherPlayerScore}
 						 use:focusField
 						 class={otherPlayerScore === 0 || otherPlayerScore < 0 ? 'text-danger input-error' : ''} />

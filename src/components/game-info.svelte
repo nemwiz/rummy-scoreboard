@@ -28,8 +28,8 @@
 			</g>
 		</svg>
 
-		<p id="projectname" class="title">Runda broj {currentRound}</p>
-		<p class="subtitle">U ovoj rundi deli <b>{dealer}</b></p>
+		<p data-testid="currentRound" class="title">Runda broj {currentRound}</p>
+		<p data-testid="dealer" class="subtitle">U ovoj rundi deli <b>{dealer}</b></p>
 
 		<a href="/points" class="btn btn-dark">
 			Završi ovu rundu
