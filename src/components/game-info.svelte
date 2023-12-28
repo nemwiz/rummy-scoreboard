@@ -32,7 +32,7 @@
 		<p data-testid="dealer" class="subtitle">U ovoj rundi deli <b>{dealer}</b></p>
 
 		<a href="/points" class="btn btn-dark">
-			Završi ovu rundu
+			Upiši poene
 		</a>
 	</div>
 </div>

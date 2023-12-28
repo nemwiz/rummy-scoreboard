@@ -24,7 +24,7 @@
 		});
 		setPlayers(players);
 		setDealingPlayerIndex(0);
-		setNumberOfRounds(0);
+		setNumberOfRounds(1);
 		goto('/scoreboard');
 	}
 
